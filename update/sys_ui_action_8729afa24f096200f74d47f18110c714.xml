@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Convert URL</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Convert URL</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[if (current.u_easy_url.indexOf("goo.gl") >= 0) {
+    var type = 'get';
+} else {
+    var type = 'post';
+}
+try {
+	gs.info('shortener running','LK@SSV');
+    var r = new sn_ws.RESTMessageV2('Lab 4 - Google URL Shortener', type);
+    r.setStringParameter('url', current.u_easy_url);
+    var response = r.execute();
+    var responseBody = response.getBody();
+    var httpStatus = response.getStatusCode();
+	gs.info('shortener running before if','LK@SSV');
+    if (httpStatus == '200') {
+        var jp = new JSONParser();
+        var responseObj = jp.parse(responseBody);
+        var newurl = responseObj;
+        if (type == 'get') {
+            current.u_easy_url = newurl.longUrl;
+        } else {
+            current.u_easy_url = newurl.id;
+        }
+		gs.info('shortener running if done','LK@SSV');
+    }
+    current.update();
+    action.setRedirectURL(current);
+} catch (ex) {
+    var message = ex.getMessage();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-08-08 14:18:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8729afa24f096200f74d47f18110c714</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Convert URL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="External Web Services" source="x_66274_external_w">c07d9bd04fc12200f74d47f18110c713</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="External Web Services">c07d9bd04fc12200f74d47f18110c713</sys_scope>
+        <sys_update_name>sys_ui_action_8729afa24f096200f74d47f18110c714</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-08 14:29:53</sys_updated_on>
+        <table>incident</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -13,7 +13,7 @@
         <oauth2_profile/>
         <protocol_name/>
         <rest_endpoint>https://www.googleapis.com/urlshortener/v1/url</rest_endpoint>
-        <rest_message display_value="Lab 4 - Google URL Shortner">8884ebae4fc56200f74d47f18110c76c</rest_message>
+        <rest_message display_value="Lab 4 - Google URL Shortener">8884ebae4fc56200f74d47f18110c76c</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-08-08 13:59:13</sys_created_on>

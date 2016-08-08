@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,live_feed=true,hasWorkflow=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="51" text_index="true" type="collection">
+        <element label="Easy URL" max_length="1024" name="x_66274_external_w_u_easy_url" type="url"/>
+        <element label="New URL" max_length="1024" name="x_66274_external_w_u_url_2" type="url"/>
+    </element>
+</database>
