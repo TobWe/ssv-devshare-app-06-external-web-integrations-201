@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://accounts.google.com/o/oauth2/auth</auth_url>
+        <certificate_url/>
+        <client_id>451857349669-aptp0ngqsc8k25t8ne588kkivovbp4iv.apps.googleusercontent.com</client_id>
+        <client_secret>zIxFsDSk4MB/SnvDYHvOYPNoN+jvpwTqezGkmvhMoxg=</client_secret>
+        <client_uuid>dd8367224f096200f74d47f18110c7b3</client_uuid>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Google</name>
+        <oauth_api_script/>
+        <redirect_url>https://dev12672.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <revoke_token_url>https://accounts.google.com/o/oauth2/revoke</revoke_token_url>
+        <salt>0</salt>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-08-08 13:54:44</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>518367224f096200f74d47f18110c7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>451857349669-aptp0ngqsc8k25t8ne588kkivovbp4iv.apps.googleusercontent.com</sys_name>
+        <sys_package display_value="External Web Services" source="x_66274_external_w">c07d9bd04fc12200f74d47f18110c713</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="External Web Services">c07d9bd04fc12200f74d47f18110c713</sys_scope>
+        <sys_update_name>oauth_entity_518367224f096200f74d47f18110c7b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-08 13:54:44</sys_updated_on>
+        <token_url>https://www.googleapis.com/oauth2/v3/token</token_url>
+        <type>oauth_provider</type>
+        <user/>
+    </oauth_entity>
+</record_update>

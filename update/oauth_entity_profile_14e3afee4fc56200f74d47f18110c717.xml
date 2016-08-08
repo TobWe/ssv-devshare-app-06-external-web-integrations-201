@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <name>Google default_profile</name>
+        <oauth_entity display_value="451857349669-aptp0ngqsc8k25t8ne588kkivovbp4iv.apps.googleusercontent.com">518367224f096200f74d47f18110c7b4</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-08-08 13:54:44</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>14e3afee4fc56200f74d47f18110c717</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google default_profile</sys_name>
+        <sys_package display_value="External Web Services" source="x_66274_external_w">c07d9bd04fc12200f74d47f18110c713</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="External Web Services">c07d9bd04fc12200f74d47f18110c713</sys_scope>
+        <sys_update_name>oauth_entity_profile_14e3afee4fc56200f74d47f18110c717</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-08 13:54:44</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

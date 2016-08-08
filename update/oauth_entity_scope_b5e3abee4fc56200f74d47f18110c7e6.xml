@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <name>URL Shortener</name>
+        <oauth_entity display_value="451857349669-aptp0ngqsc8k25t8ne588kkivovbp4iv.apps.googleusercontent.com">518367224f096200f74d47f18110c7b4</oauth_entity>
+        <oauth_entity_scope>https://www.googleapis.com/auth/urlshortener</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-08-08 13:56:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b5e3abee4fc56200f74d47f18110c7e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>URL Shortener</sys_name>
+        <sys_package display_value="External Web Services" source="x_66274_external_w">c07d9bd04fc12200f74d47f18110c713</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="External Web Services">c07d9bd04fc12200f74d47f18110c713</sys_scope>
+        <sys_update_name>oauth_entity_scope_b5e3abee4fc56200f74d47f18110c7e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-08 13:56:36</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>
